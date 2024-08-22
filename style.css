@@ -1,0 +1,80 @@
+* {
+    font-family: 'VT323', monospace;
+    margin: 0;
+    padding: 0;
+}
+video{
+    width: 700px;
+    height: 400px;
+    margin-left: 25%;
+}
+body{
+    background-image: url(Screenshot\ 2024-08-21\ 123344.png);
+    background-size: cover; /* Cover the entire page */
+    background-repeat: repeat-y; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+.BG{
+    width: 100%;
+    height: 100%;
+}
+#st{
+    font-size: 100px;
+    text-align: center;
+    color: #76D745;
+    margin-top: 30px;
+}
+/* Style the link to look like a button and make it twice as big */
+.button-link {
+    display: inline-block;
+    padding: 30px 60px; /* Increased padding for a larger button */
+    font-size: 36px; /* Increased font size for larger text */
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text inside button */
+    margin-top: 50px; /* Added top margin */
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+/* Style the link to look like a button and make it twice as big */
+.button-link {
+    display: inline-block;
+    padding: 30px 60px; /* Increased padding for a larger button */
+    font-size: 36px; /* Increased font size for larger text */
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text inside button */
+    margin-top: 50px; /* Added top margin */
+    margin-left: 48%; /* Horizontal margin from the left */
+    transform: translateX(-43%); /* Centering effect */
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 1024px) {
+    video{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .change{
+        text-wrap: wrap;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+}
+
